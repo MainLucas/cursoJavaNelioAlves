@@ -16,7 +16,5 @@ public class Test02 {
         System.out.println("Raiz quadrada de " + x + " = " + A);
         System.out.println(B);
 
-
-
     }
 }

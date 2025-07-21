@@ -1,4 +1,4 @@
-package com.cursoJavaModulos.secao04EstruturaSequencial.DfuncoesMatematicas;
+package com.cursoJavaModulos.secao04EstruturaSequencial.DfuncoesMatematicas.tests;
 
 import java.util.Locale;
 

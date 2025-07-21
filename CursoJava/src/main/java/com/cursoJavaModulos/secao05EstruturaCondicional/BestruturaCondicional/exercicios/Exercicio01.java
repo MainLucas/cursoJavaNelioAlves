@@ -30,9 +30,5 @@ public class Exercicio01 {
             System.out.println("Par");
         }
 
-
-
-
-
     }
 }

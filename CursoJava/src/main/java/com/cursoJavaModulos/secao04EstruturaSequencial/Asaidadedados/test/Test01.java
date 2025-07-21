@@ -1,4 +1,4 @@
-package com.cursoJava.modulo01.Asaidadedados.test;
+package com.cursoJavaModulos.secao04EstruturaSequencial.Asaidadedados.test;
 
 import java.util.Locale;
 

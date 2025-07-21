@@ -1,4 +1,4 @@
-package com.cursoJava.modulo01.DfuncoesMatematicas;
+package com.cursoJavaModulos.secao04EstruturaSequencial.DfuncoesMatematicas;
 
 public class Test01 {
     public static void main (String[] args){

@@ -1,4 +1,4 @@
-package com.cursoJava.modulo01.CentradaDeDados;
+package com.cursoJavaModulos.secao04EstruturaSequencial.CentradaDeDados;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -8,6 +8,7 @@ public class Test01 {
         int x = sc.nextInt();
         int soma = 0;
         while (x != 0){
+
             soma += x;
             System.out.println("Digite novamente: ");
             x = sc.nextInt();

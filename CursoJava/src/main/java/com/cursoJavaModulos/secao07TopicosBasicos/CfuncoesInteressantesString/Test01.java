@@ -1,4 +1,4 @@
-package com.cursoJavaModulos.secao07topicosBasicos.CfuncoesInteressantesString;
+package com.cursoJavaModulos.secao07TopicosBasicos.CfuncoesInteressantesString;
 
 public class Test01 {
     public static void main(String[] args){

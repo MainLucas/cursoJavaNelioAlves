@@ -1,4 +1,4 @@
-package com.cursoJavaModulos.secao07topicosBasicos.BoperadorBitwise;
+package com.cursoJavaModulos.secao07TopicosBasicos.BoperadorBitwise;
 
 import java.util.Scanner;
 

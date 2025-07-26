@@ -1,4 +1,4 @@
-package com.cursoJavaModulos.secao07topicosBasicos.DsintaxeFuncoes;
+package com.cursoJavaModulos.secao07TopicosBasicos.DsintaxeFuncoes;
 
 public class Test01 {
     public static void main(String[] args){

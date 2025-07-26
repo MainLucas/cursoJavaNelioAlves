@@ -1,4 +1,4 @@
-package com.cursoJavaModulos.secao07topicosBasicos.ArestriçãoEConvencaoNomes;
+package com.cursoJavaModulos.secao07TopicosBasicos.ArestriçãoEConvencaoNomes;
 
 public class Test01 {
 //    Convenções

@@ -12,14 +12,12 @@ public class AProduct {
 
     public int addTv (int x){
        stock += x;
-       totalValueinStock();
        System.out.printf("Updated data: %s, %.2f, %d units, Total: $ %.2f\n", name, price, stock, totalValueinStock());
        return stock;
     }
 
     public int removeTv (int x){
         stock -= x;
-        totalValueinStock();
         System.out.printf("Updated data: %s, %.2f, %d units, Total: $ %.2f\n", name, price, stock, totalValueinStock());
         return stock;
     }

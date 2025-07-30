@@ -14,13 +14,25 @@ public class FuncionarioTest {
         Funcionario funcionario = new Funcionario();
 
         System.out.print("Name: ");
-        String name = sc.nextLine();
+        funcionario.name = sc.nextLine();
 
-        System.out.println("Gross salary: ");
-        double gross = sc.nextDouble();
+        System.out.print("Gross salary: ");
+        funcionario.grossSalary = sc.nextDouble();
 
-        System.out.println("Tax: ");
-        double tax = sc.nextDouble();
+        System.out.print("Tax: ");
+        funcionario.tax = sc.nextDouble();
+
+        System.out.println("Employee: " + funcionario.toString() + funcionario.netSalary());
+        System.out.print("Which percentage to increase salary? ");
+        double percentage = sc.nextDouble();
+        funcionario.increaseSalary(percentage);
+        System.out.println("Updated data: " + funcionario.toString() + funcionario.grossSalary);
+
+
+
+
+
+
 
 
     }

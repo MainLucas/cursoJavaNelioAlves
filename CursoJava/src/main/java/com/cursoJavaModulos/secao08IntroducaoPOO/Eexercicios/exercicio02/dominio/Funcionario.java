@@ -6,14 +6,14 @@ public class Funcionario {
     public double tax;
 
     public double netSalary(){
-        return 2.00;
+        return grossSalary - tax;
     }
     public void increaseSalary(double percentage){
+        grossSalary += percentage/100 * grossSalary;
 
     }
     public String toString(){
         return name
-                + ", $ "
-                + "test";
+                + ", $ ";
     }
 }

@@ -47,9 +47,4 @@ public class ContaBancaria {
         this.nomeTitular = nomeTitular;
 
     }
-
-    public void setValorInicial(double valorInicial) {
-        this.saldo = valorInicial;
-
-    }
 }

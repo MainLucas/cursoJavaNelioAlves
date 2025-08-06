@@ -21,9 +21,8 @@ public class NegativosTest01 {
         }
         System.out.println("Números negativos");
         for (int i = 0; i < n; i++){
-            int x = vect[i];
-            if (x < 0)
-                System.out.println(x);
+            if (vect[i] < 0)
+                System.out.println(vect[i]);
         }
     }
 }

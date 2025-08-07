@@ -20,7 +20,7 @@ public class AlturasTest {
         double sum = 0;
 
         for (int i = 0; i < nroPessoasDigitadas; i++){
-            System.out.println("Dados da " + " Pessoa");
+            System.out.println("Dados da " + (i+1) + " Pessoa");
             System.out.print("nome: ");
             sc.nextLine();
             String name = sc.nextLine();

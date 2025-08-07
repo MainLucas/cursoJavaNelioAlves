@@ -35,12 +35,31 @@ public class Test01 {
             funcionarioList.add(i, funcionario);
 
         }
+        System.out.println();
         System.out.print("Informe o ID do funcionário que terá aumento salarial: ");
-        int id = sc.nextInt();
+        int id = sc.nextInt() ;
+        id = id - 1;
+
+
         System.out.print("informe a porcentagem: ");
         double porcentagem = sc.nextDouble();
+        porcentagem = porcentagem / 100;
 
-        double result = funcionarioList.get(id).getSalario() ;
+        double result = funcionarioList.get(id).getSalario();
+
+        double aumentoSalarial = result + (result * porcentagem);
+
+        funcionarioList.get(id).setSalario(aumentoSalarial);
+
+        System.out.println();
+        System.out.println("Lista de funcionários: ");
+        for (int i = 0; i < n; i++){
+            System.out.println(funcionarioList.get(id).getId() + ", " + funcionarioList.get(i).getName() + ", " + funcionarioList.get(i).getSalario());
+
+        }
+
+
+
 
 
 
